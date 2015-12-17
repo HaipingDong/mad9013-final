@@ -27,7 +27,8 @@ light blue:#72FFE8
 						margin: 0 auto;
 					}
 					
-					html,body {
+					html,
+					body {
 						margin: 0;
 						padding: 0;
 					}
@@ -46,7 +47,6 @@ light blue:#72FFE8
 						border-radius: 3px;
 						font-size: 15px;
 						font-family: sans-serif, serif;
-						
 					}
 					
 					#bootstrap-overide a.navbar-nav {
@@ -88,7 +88,6 @@ light blue:#72FFE8
 						background-color: #7F5DFF;
 						color: #fff;
 						text-align: center;
-						
 					}
 					
 					ul {
@@ -96,7 +95,6 @@ light blue:#72FFE8
 						font-size: 5px;
 						padding: 1rem 2rem;
 						margin: 0 auto;
-						
 					}
 					
 					h2 {
@@ -132,7 +130,6 @@ light blue:#72FFE8
 					
 					#bootstrap-overide a.navbar-brand {
 						font-family: Averia+Serif+Libre;
-					
 					}
 					
 					.card-title {
@@ -183,6 +180,34 @@ light blue:#72FFE8
 						border: 15px solid #fff;
 					}
 					
+					button.btn:hover {
+						opacity: 0.6;
+						color: #fff;
+					}
+					
+					button.btn:active {
+						outline: 0;
+						opacity: 0.6;
+						color: #fff;
+						-moz-box-shadow: none;
+						-webkit-box-shadow: none;
+						box-shadow: none;
+					}
+					
+					button.btn:focus {
+						outline: 0;
+						opacity: 0.6;
+						background: #19b9e7;
+						color: #fff;
+					}
+					
+					button.btn:active:focus {
+						outline: 0;
+						opacity: 0.6;
+						background: #19b9e7;
+						color: #fff;
+					}
+					
 					fieldset {
 						border: 1px solid #fff;
 						padding: 1rem 2rem;
@@ -206,7 +231,6 @@ light blue:#72FFE8
 						.card-title {
 							font-family: Averia+Serif+Libre;
 							font-size: 17px;
-							
 						}
 						.card-text {
 							font-family: sans-serif;
@@ -240,7 +264,6 @@ light blue:#72FFE8
 							list-style: none;
 							font-size: 19px;
 							padding: 10px auto;
-							
 						}
 						.about {
 							color: #7F5DFF;
@@ -258,7 +281,6 @@ light blue:#72FFE8
 							background-color: #7F5DFF;
 							color: #fff;
 							text-align: center;
-							
 							font-size: 50px;
 						}
 						.navbar-brand {
@@ -285,14 +307,13 @@ light blue:#72FFE8
 							padding: 2rem 2rem;
 						}
 						.box {
-						padding: 1rem 1rem;
-					}
-							.masthead {
-						font-family: Averia+Serif+Libre;
-						
-						padding: 1rem 4rem;
-						margin: 0 auto;
-					}
+							padding: 1rem 1rem;
+						}
+						.masthead {
+							font-family: Averia+Serif+Libre;
+							padding: 1rem 4rem;
+							margin: 0 auto;
+						}
 					}
 					
 					@media all and (min-width:901px) and (max-width: 1400px) {
@@ -326,7 +347,6 @@ light blue:#72FFE8
 						.card-title {
 							font-family: Averia+Serif+Libre;
 							font-size: 24px;
-							
 							text-align: left;
 						}
 						.card-text {
@@ -377,7 +397,6 @@ light blue:#72FFE8
 							background-color: #7F5DFF;
 							color: #fff;
 							text-align: center;
-							
 							font-size: 55px;
 						}
 						.navbar-brand {
@@ -404,14 +423,13 @@ light blue:#72FFE8
 							padding: 2rem 2rem;
 						}
 						.masthead {
-						font-family: Averia+Serif+Libre;
-						
-						padding: 1rem 6rem;
-						margin: 0 auto;
-					}
+							font-family: Averia+Serif+Libre;
+							padding: 1rem 6rem;
+							margin: 0 auto;
+						}
 						.box {
-						padding: 1rem 1rem;
-					}
+							padding: 1rem 1rem;
+						}
 					}
 					
 					@media all and (min-width:1401px) {
@@ -475,7 +493,6 @@ light blue:#72FFE8
 							list-style: none;
 							font-size: 33px;
 							padding: 20px auto;
-							
 						}
 						.about {
 							text-align: center;
@@ -512,8 +529,8 @@ light blue:#72FFE8
 							padding: 20px auto;
 						}
 						.box {
-						padding: 1rem 1rem;
-					}
+							padding: 1rem 1rem;
+						}
 						label {
 							display: none;
 						}
@@ -522,10 +539,10 @@ light blue:#72FFE8
 							width: 100%;
 							padding: 2rem 2rem;
 						}
-							.masthead {
-						font-family: Averia+Serif+Libre;
-						font-size: 60px;
-						padding: 1rem 1rem;
-						margin: 0 auto;
-					}
+						.masthead {
+							font-family: Averia+Serif+Libre;
+							font-size: 60px;
+							padding: 1rem 1rem;
+							margin: 0 auto;
+						}
 					}
