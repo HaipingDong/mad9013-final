@@ -31,6 +31,10 @@ light blue:#72FFE8
 					body {
 						margin: 0;
 						padding: 0;
+						font-size: 16px;
+						font-family: 'Josefin Sans', sans-serif;
+						/* default for whole page */
+						line-height: 1.6;
 					}
 					
 					#bootstrap-overide img {
@@ -108,6 +112,7 @@ light blue:#72FFE8
 						font-size: 25px;
 						margin: 0 auto;
 						line-height: 2rem;
+						;
 					}
 					
 					li {
@@ -212,6 +217,12 @@ light blue:#72FFE8
 						border: 1px solid #fff;
 						padding: 1rem 2rem;
 						margin: 0 auto;
+					}
+					
+					p {
+						font-family: Calibri, sans-serif;
+						font-size: 34px;
+						padding: 20px 15px 20px 15px;
 					}
 					
 					.box {
@@ -522,6 +533,7 @@ light blue:#72FFE8
 							font-family: sans-serif;
 							font-size: 33px;
 							padding: 20px auto;
+							display: inline;
 						}
 						.form-control {
 							width: 100%;
