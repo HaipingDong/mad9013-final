@@ -1,55 +1,57 @@
-
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-	<meta charset="UTF-8">
+	<!--Meta tags-->
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
 	<title>Home Page</title>
-	<link rel="stylesheet" href="bootstrap-4.0.0-alpha/dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/main.css">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="bootstrap-4.0.0-alpha/dist/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css"></link>
+	<link rel="stylesheet" href="css/stylesheet.css"></link>
+
 </head>
-
-
 <body>
-	<div class="wrapper">
-		<div id="bootstrap-overide-1">
-			<h1 id="home"> Home</h1>
-			<header>
-				<!--	div.container>div.row>div.col*5>img+p-->
+  <!--NavBar-->
+  <nav class="navbar navbar-light bg-faded">
+    <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+      &#9776;
+    </button>
+    <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
+        <a class="navbar-brand" href="#">
+        <!--Self created Brand logo-->
+      <img class="img-square" src="img/2.jpg" alt="Haiping Dong" width="110" height="40"></a>
+        <ul class="nav navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+      </div>
+  </nav>
+<div class="container">
 
-				<!--div.container>div>a+button+div>ul>li*3>a-->
+      <div class="jumbotron">
+        <img class="img-circle" src="img/1.jpg" alt="Generic placeholder image" width="140" height="140">
+        <h1 class="display-3">Haiping Dong</h1>
+        <p class="lead">Haiping Dong is a student who study in internet application and web development program, she is interested in Programming Languages.Angelina have confidence in Web Development,and she likes work with HTML/CSS, Responsive images, JavaScript (jQuery).</p>
+        <p><a class="btn btn-lg btn-success" href="#" role="button">About Me</a></p>
+      </div>
 
-				<div class="container">
-					<ul class="navbar-nav">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="projects.html">Projects</a></li>
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
-				</div>
+      <footer class="footer">
+        <p>&copy; Haiping@</p>
+      </footer>
 
-			</header>
-			<div class="container">
-			<h3 class ="about">ABOUT ME!</h3>
-				<a class="navbar-brand" href="#"> Haiping Dong</a>
-				<img src="img/1.jpg" class ="img-responsive" alt="Responsive image">
+    </div> 
 
-				<br>
-				<br>
-				<ul>
-					<h2> Haiping Dong is a student who study in internet application and web development program, she is interested in Programming Languages.Angelina have confidence in Web Development.</h2>
-					<h4 class="skill"><a href="#">SKILLS</a></h4>
-					<li><a href="#">Interacting with database using queries</a></li>
-					<li><a href="#">Working with python</a></li>
-					<li> <a href="#">learning about how to build a html page</a></li>
-					<li><a href="#">learning about how to deal with debugging</a></li>
-					<li><a href="#">learning about how to write javascript code</a></li>
-				</ul>
-
-			</div>
-		</div>
-	</div>
+	<!--jQuery, then Bootstrap JS-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
 </body>
-
 </html>
