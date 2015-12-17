@@ -473,14 +473,14 @@ light blue:#72FFE8
 						}
 						ul {
 							list-style: none;
-							font-size: 22px;
+							font-size: 33px;
 							padding: 20px auto;
 							
 						}
 						.about {
+							text-align: center;
 							color: #7F5DFF;
 							padding: 2rem 2rem;
-							text-align: center;
 							font-size: 45px;
 						}
 						.skill {
@@ -503,7 +503,7 @@ light blue:#72FFE8
 						}
 						li {
 							font-family: sans-serif;
-							font-size: 22px;
+							font-size: 33px;
 							padding: 20px auto;
 						}
 						.form-control {
